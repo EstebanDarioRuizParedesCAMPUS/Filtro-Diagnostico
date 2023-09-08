@@ -1,0 +1,1 @@
+import {medicamentosModel} from '../models/medicamentos.js'

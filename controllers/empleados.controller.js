@@ -1,0 +1,1 @@
+import {empleadosModel} from '../models/empleados.js'

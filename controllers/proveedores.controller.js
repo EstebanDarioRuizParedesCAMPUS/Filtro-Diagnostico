@@ -1,0 +1,1 @@
+import {proveedoresModel} from '../models/proveedores.js'

@@ -1,0 +1,1 @@
+import {ventasModel} from '../models/ventas.js'
