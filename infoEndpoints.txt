@@ -1,6 +1,8 @@
+//No logré hacer funcionar ningun endpoint
+
 1. Obtener todos los medicamentos con menos de 50 unidades en stock
 
-http://localhost:6000/medicamentos/?count=50
+http://localhost:6000/medicamentos/min/?count=50  
 
 2. Listar los proveedores con su información de contacto en medicamentos
 

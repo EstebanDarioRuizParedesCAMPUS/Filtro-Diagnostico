@@ -1,20 +1,22 @@
 import {Router} from 'express'
 
+import { getMedByStock } from '../controllers/medicamentos.controller.js'
+
+
+
 const medicamentosRouter = Router()
 
 medicamentosRouter.get("/",()=>{
     console.log('funciona, pero especifica un valor del ejercicio');
 })
 
-medicamentosRouter.get("/:count",()=>{
-    console.log('funciona ruta ejercicio 1');
-})
+medicamentosRouter.get("/min",getMedByStock)
 
 medicamentosRouter.get("/proveedores",()=>{
     console.log('funciona');
 })
 
-medicamentosRouter.get("/:fecha",()=>{
+medicamentosRouter.get("/:fecha?",()=>{
     console.log('funciona');
 })
 
@@ -22,7 +24,7 @@ medicamentosRouter.get("/maxCost",()=>{
     console.log('funciona');
 })
 
-medicamentosRouter.get("/:stock",()=>{
+medicamentosRouter.get("/:stock?",()=>{
     console.log('funciona');
 })
 
